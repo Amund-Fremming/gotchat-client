@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/amund-fremming/common/model"
+	"github.com/amund-fremming/gotchat-common/model"
 )
 
 func DisplayWelcomeMessage() {

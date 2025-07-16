@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/amund-fremming/common/enum"
-	"github.com/amund-fremming/common/model"
+	"github.com/amund-fremming/gotchat-common/enum"
+	"github.com/amund-fremming/gotchat-common/model"
 	"github.com/chzyer/readline"
 )
 

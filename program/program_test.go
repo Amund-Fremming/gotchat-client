@@ -3,8 +3,8 @@ package program
 import (
 	"testing"
 
-	"github.com/amund-fremming/common/enum"
-	"github.com/amund-fremming/common/model"
+	"github.com/amund-fremming/gotchat-common/enum"
+	"github.com/amund-fremming/gotchat-common/model"
 )
 
 func TestMerge(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/amund-fremming/common/config"
+	"github.com/amund-fremming/gotchat-common/config"
 )
 
 func main() {

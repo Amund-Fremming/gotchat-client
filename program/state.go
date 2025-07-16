@@ -1,8 +1,8 @@
 package program
 
 import (
-	"github.com/amund-fremming/common/enum"
-	"github.com/amund-fremming/common/model"
+	"github.com/amund-fremming/gotchat-common/enum"
+	"github.com/amund-fremming/gotchat-common/model"
 	"github.com/gorilla/websocket"
 )
 

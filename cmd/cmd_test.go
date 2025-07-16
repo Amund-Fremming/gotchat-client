@@ -3,7 +3,7 @@ package cmd
 import (
 	"testing"
 
-	"github.com/amund-fremming/common/enum"
+	"github.com/amund-fremming/gotchat-common/enum"
 )
 
 func TestGetCommand_Successful(t *testing.T) {

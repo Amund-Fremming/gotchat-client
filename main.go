@@ -17,8 +17,11 @@ func main() {
 		return
 	}
 
-	serverUrlBase := fmt.Sprintf("%s://%s:%s", config.Scheme, config.URL, config.Port)
 	slog.SetLogLoggerLevel(config.LogLevel)
+	// serverUrlBase := fmt.Sprintf("%s://%s:%s", config.Scheme, config.URL, config.Port)
+	serverUrlBase := fmt.Sprintf("%s://%s", config.Scheme, config.URL)
+
+	slog.Debug("", "URL", serverUrlBase)
 
 	response, err := http.Get(serverUrlBase + "/health")
 	if err != nil || response.Status != "200 OK" {

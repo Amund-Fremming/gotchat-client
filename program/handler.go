@@ -18,7 +18,7 @@ var state AppState = NewAppState()
 func ConnectToServer(cfg *config.Config) {
 	url := url.URL{
 		Scheme: cfg.SocketScheme,
-		Host:   cfg.URL + ":" + cfg.Port,
+		Host:   cfg.URL, // + ":" + cfg.Port,
 		Path:   "/chat",
 	}
 

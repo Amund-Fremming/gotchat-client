@@ -20,8 +20,8 @@ func DisplayCommands() {
 Lobby commands:
     /help                            Displays available commands in you context
     /connect <username> <room_name>  Connects a user to a room
-    /create  <name>                  Creates a room with name "<name>"
-    /status                          Displays all available rooms with a counter
+    /create  <name>     <room_name>  Creates a room with name "<name>"
+    /rooms                           Displays all available rooms with a counter
     /exit                            Disconnects the client and shuts down the app
 
 Room commands:

@@ -65,7 +65,7 @@ func GetCommand(input string, clientName string, roomName string) (Command, erro
 
 	case "/connect", "/create":
 		if len(verbs) < 3 {
-			return Command{}, errors.New("[ERROR] This command required two arguments")
+			return Command{}, errors.New("this command required two arguments")
 		}
 
 		action := enum.Connect
@@ -80,5 +80,5 @@ func GetCommand(input string, clientName string, roomName string) (Command, erro
 		}, nil
 	}
 
-	return Command{}, errors.New("[ERROR] Invalid command")
+	return Command{}, errors.New("invalid command")
 }
